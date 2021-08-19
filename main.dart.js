@@ -10663,12 +10663,11 @@ this.b=b},
 H5:function H5(){},
 akm:function(){return new T.rv(new S.Su(),P.v(t.K,t.oc))},
 a_1:function a_1(a){this.b=a},
-t8:function t8(a,b,c,d,e){var _=this
+t8:function t8(a,b,c,d){var _=this
 _.f=a
-_.r=b
-_.dy=c
-_.fx=d
-_.a=e},
+_.dy=b
+_.fx=c
+_.a=d},
 Su:function Su(){},
 Sx:function Sx(){},
 wH:function wH(a){var _=this
@@ -34910,15 +34909,14 @@ s.toString
 b.toString
 s=b
 return new M.ui(new K.q8(o,s,C.X,C.F,m,m),m)},
-Qy:function(a){var s,r,q,p=this,o=null,n=p.a,m=n.fx
-m=m.b
-s=m
-m=n.f
-r=n.r
-n=n.dy
-q=p.gEv()
-p.a.toString
-return new S.vt(o,o,o,new S.a2P(),o,o,o,o,o,m,o,r,C.rM,p.gVI(),n,o,C.F2,s,o,q,o,o,C.kk,!1,!1,!1,!1,p.gVp(),!0,o,o,o,new N.jv(p,t.By))},
+Qy:function(a){var s,r,q=this,p=null,o=q.a,n=o.fx
+n=n.b
+s=n
+n=o.f
+o=o.dy
+r=q.gEv()
+q.a.toString
+return new S.vt(p,p,p,new S.a2P(),p,p,p,p,p,n,p,p,C.rM,q.gVI(),o,p,C.F2,s,p,r,p,p,C.kk,!1,!1,!1,!1,q.gVp(),!0,p,p,p,new N.jv(q,t.By))},
 G:function(a,b){var s,r=this.Qy(b)
 this.a.toString
 s=this.d
@@ -49603,9 +49601,10 @@ gVe:function(){var s,r
 $.x.toString
 s=$.b7().b
 if(s.gyh()!=="/"){$.x.toString
-s=s.gyh()}else{r=this.a.cy
-if(r==null){$.x.toString
-s=s.gyh()}else s=r}return s},
+s=s.gyh()}else{this.a.toString
+r=$.x
+r.toString
+s=s.gyh()}return s},
 at:function(){var s=this
 s.bg()
 s.YR()
@@ -58455,7 +58454,7 @@ $1:function(a){return C.nh},
 $S:383}
 F.AM.prototype={
 G:function(a,b){var s=X.aa4(null,new E.lq(C.wg,4280015601))
-return new S.t8($.abv(),"/profile-settings","Hatch",s,null)}}
+return new S.t8($.abv(),"Hatch",s,null)}}
 G.kw.prototype={
 a3:function(){return new G.EW(C.j)}}
 G.EW.prototype={
